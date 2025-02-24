@@ -25,7 +25,7 @@
     <script>
         // Функция для загрузки медиа с сервера
         async function loadMedia() {
-            const response = await fetch('https://ВАШ_СЕРВЕР/api/get-media'); // Замените на ваш API
+            const response = await fetch('https://megov.pythonanywhere.com/api/get-media'); // Замените на ваш API
             const mediaData = await response.json();
 
             const container = document.getElementById('media-container');
